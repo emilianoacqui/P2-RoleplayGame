@@ -16,8 +16,4 @@ public class ItemMago
         Defensa = defensa;
     }
 }
-public class LibroH
-{
-    
-}
 }
