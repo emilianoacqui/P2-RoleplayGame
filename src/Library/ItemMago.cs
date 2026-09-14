@@ -1,4 +1,8 @@
 namespace Ucu.Poo.RolePlayGame {
+//cada especie tiene su propia clase de Item, 
+// en vez de una clase Item generica compartida, para que no se
+// pueda, por error, agregarle un Item de un personaje a otro, 
+// si no le pertenece a su "grupo de items".
 public class ItemMago
 {
     public string Nombre { get; set; }
